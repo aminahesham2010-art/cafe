@@ -4,7 +4,7 @@ margin: 0;
 }
 
 body{
-    background-color: bisque;
+    background-color: rgb(66, 99, 93);
 }
 #caption{
     width: 100vw;
@@ -13,4 +13,93 @@ body{
     text-shadow: 0 0 13px rgb(217, 146, 219);
     margin-top: 50px;
     z-index: 5;
+}
+
+.categories{
+    display: flex;
+    border: 1px solid white;
+    font-size: 3em;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    width: 99vw;
+
+
+}
+
+.drink{
+    border: 1px solid white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    width: 25vw;
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+
+.active{
+    text-shadow: 0 0 15px hotpink;
+}
+
+.drink:hover{
+    text-shadow: 0 0 15px hotpink;}
+
+.qwer{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.dragon{
+    position: absolute;
+    right: 50px;
+    width: 45vw;
+}
+
+
+.list{
+position: absolute;
+    top: 200px;
+}
+
+
+.desc{
+    justify-content: center;
+    width: 99vw;
+    
+    display: flex;
+    height: 15vw;
+
+}
+
+.name, .ing, .price, .container{
+    border: 1px solid black;
+    width: 20vw;
+    font-size: 2.3em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+    
+}
+
+.imgdrink{
+    height: 12vw;
+    transition: 1s;
+
+}
+
+.small 
+
+.name{
+    font-size: 2.3em;
+    
+}
+.imgdrink:hover{
+    height: 15vw;
+
+
+}
+
+.soft{
+    display: none;
 }
