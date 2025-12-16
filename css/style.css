@@ -1,3 +1,9 @@
+@font-face {
+    font-family: font;
+    src: url(/wonton-by-da-font-mafia.woff2);
+}
+
+
 *{
     padding: 0;
 margin: 0;
@@ -5,6 +11,8 @@ margin: 0;
 
 body{
     background-color: rgb(66, 99, 93);
+    user-select: none;
+    font-family: font, sans-serif;
 }
 #caption{
     width: 100vw;
@@ -105,4 +113,46 @@ position: absolute;
 }
 
 
+.linkpage{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 2em;
+    z-index: 1;
+    transition: 1s;
+}
 
+.linkpage:hover{
+    text-shadow: 0 0 15px red;
+}
+
+
+.days{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    margin-left: 3.5em;
+    font-size: 3em;
+}
+
+.day{
+    transition: 1s;
+
+}
+
+.day:hover{
+    text-shadow: 0 0 15px red;
+}
+
+.event{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5em;
+    width: 60vw;
+}
+
+.eventimg{
+    height: 7em;
+}
