@@ -71,7 +71,7 @@ position: absolute;
 }
 
 
-.desc{
+.desc, .descevent{
     justify-content: center;
     width: 99vw;
     
@@ -108,7 +108,7 @@ position: absolute;
 
 }
 
-.soft{
+.soft, .noalc{
     display: none;
 }
 
@@ -118,7 +118,7 @@ position: absolute;
     right: 15px;
     top: 15px;
     font-size: 2em;
-    z-index: 1;
+    z-index: 6;
     transition: 1s;
 }
 
@@ -138,6 +138,7 @@ position: absolute;
 
 .day{
     transition: 1s;
+    z-index: 5;
 
 }
 
@@ -146,13 +147,39 @@ position: absolute;
 }
 
 .event{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20vw;
     font-size: 2.5em;
     width: 60vw;
+    align-items: center;
+}
+
+
+.eventpic{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin-left: 25vw;
+    margin-top: 2em;
 }
 
 .eventimg{
     height: 7em;
+}
+
+#mafia, #karaoke,#band,#book,#dogcafe,#movie{
+    display: none;
+}
+
+.nameEvent{
+    margin-top: 1em;
+    font-size: 1.7em;
+}
+
+.descevent{
+    font-size: 1.3em;
+    align-items: center;
 }

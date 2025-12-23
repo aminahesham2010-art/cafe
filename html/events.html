@@ -5,32 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Behind the Door</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
 </head>
 <body>
+
+    <img src="/pics/pngwing.com (1).png" class="dragon" alt="">
+
         <div onclick="window.location.href='menu.html'"  class="linkpage">menu</div>
     <div class="days">
-        <div class="day">sunday</div>
-        <div class="day">monday</div>
-        <div class="day active">tuesday</div>
-        <div class="day">wednesday</div>
-        <div class="day">thursday</div>
-        <div class="day">friday</div>
-        <div class="day">saturday</div>
+        <div id="sun" onclick="chooseDay('sun','mafia')" class="day">sunday</div>
+        <div  onclick="chooseDay('mon','karaoke')"  id="mon" class="day">monday</div>
+        <div  onclick="chooseDay('tue','boardgms')"  id="tue" class="day active">tuesday</div>
+        <div  onclick="chooseDay('wed','band')"  id="wed" class="day">wednesday</div>
+        <div  onclick="chooseDay('thu','movie')"  id="thu"class="day">thursday</div>
+        <div  onclick="chooseDay('fri','dogcafe')"  id="fri"class="day">friday</div>
+        <div  onclick="chooseDay('sat','book')"  id="sat"class="day">saturday</div>
     </div>
-    <div class="event">
+    <div id="boardgms" class="event">
         <div class="nameEvent">board games</div>
-        <img src="/evventimg/board games.jpg" alt="" class="eventimg">
-        <div class="desc">uno 7pm <br> monopoly 8-10pm <br> scrable 11pm </div>
+        <div class="eventpic">
+            <img src="/evventimg/board games.jpg" alt="" class="eventimg">
+            <div class="descevent">uno 7pm <br> monopoly 8-10pm <br> scrable 11pm </div>
+        </div>
+     
     </div>
 
 
-    <div class="event">
-        <div class="nameEvent">!!!!!!</div>
-        <img src="/evventimg/board games.jpg" alt="" class="eventimg">
-        <div class="desc">uno 7pm <br> !!!!! </div>
+    <div class="event" id="mafia" >
+        <div class="nameEvent">mafia</div>
+        <div class="eventpic">
+            <img src="/evventimg/mafia.png" alt="" class="eventimg">
+            <div class="descevent"> game starts 6pm </div>
+        </div>
     </div>
 
 
+       <div class="event" id="karaoke" >
+        <div class="nameEvent">karaoke night</div>
+           <div class="eventpic">
+        <img src="/evventimg/Karaoke.webp" alt="" class="eventimg">
+        <div class="descevent"> your song choice </div>
+    </div>
+</div>
 
+    
+    <div class="event" id="band" >
+        <div class="nameEvent">band night</div>
+           <div class="eventpic">
+        <img src="/evventimg/band.jpeg" alt="" class="eventimg">
+        <div class="descevent"> starts 8pm </div>
+    </div>
+    </div>
+
+
+       <div class="event" id="book" >
+        <div class="nameEvent">book club</div>
+           <div class="eventpic">
+        <img src="/evventimg/bookclub.webp" alt="" class="eventimg">
+        <div class="descevent"> 3-5pm </div>
+    </div>
+    </div>
+
+    <div class="event" id="dogcafe" >
+        <div class="nameEvent">dog cafe</div>
+           <div class="eventpic">
+        <img src="/evventimg/dog friendly.jpg" alt="" class="eventimg">
+        <div class="descevent"> come anytime </div>
+    </div>
+    </div>
+
+
+       <div class="event" id="movie" >
+        <div class="nameEvent">movie night</div>
+               <div class="eventpic">
+        <img src="/evventimg/movie night.jpg" alt="" class="eventimg">
+        <div class="descevent"> new movie every week </div>
+               </div>
+    </div>
+    </div>
+      
 </body>
 </html>
