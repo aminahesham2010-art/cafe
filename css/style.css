@@ -3,6 +3,11 @@
     src: url(/wonton-by-da-font-mafia.woff2);
 }
 
+@font-face {
+    font-family: phont;
+    src: url(/tt2020-style-f-regular-ascii.woff2);
+}
+
 
 *{
     padding: 0;
@@ -17,7 +22,7 @@ body{
 #caption{
     width: 100vw;
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
     text-shadow: 0 0 13px rgb(217, 146, 219);
     margin-top: 50px;
     z-index: 5;
@@ -183,3 +188,56 @@ position: absolute;
     font-size: 1.3em;
     align-items: center;
 }
+
+#tree{
+    position: absolute;
+    right: 0;
+    height: 70vh;
+    top: 15vh;
+
+}
+
+
+#flower{
+    position: absolute;
+    left: 12vw;
+    top: 7vh;
+    height: 50vh;
+    z-index: -2;
+}
+.note{
+    font-family: phont, sans-serif;
+    font-size: 2.5vw;
+    position: absolute;
+    opacity: 0.5;
+}
+
+#na{
+    transform: rotate(15deg);
+    top: 25vh;
+    left: 5vh;
+
+}
+
+#am{
+    transform: rotate(330deg);
+    top: 50vh;
+    left: 50vh;
+
+}
+
+
+#aa{
+    transform: rotate(3deg);
+    bottom: 25vh;
+    right: 25vh;
+
+}
+
+.btmMenu{
+    font-size: 10vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 20vh;
+}
+
