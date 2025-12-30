@@ -42,3 +42,6 @@ document.getElementById(id).classList.add("active");
 document.getElementById(idevent).style.display="flex";
 
     }
+
+
+    

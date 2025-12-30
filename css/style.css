@@ -19,6 +19,12 @@ body{
     user-select: none;
     font-family: font, sans-serif;
 }
+
+#indexbod{
+    overflow: hidden;
+}
+
+
 #caption{
     width: 100vw;
     text-align: center;
@@ -238,6 +244,54 @@ position: absolute;
     font-size: 10vh;
     width: 100vw;
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 23vh;
 }
 
+.btmEvde{
+    font-size: 10vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 38vh;
+    
+}
+
+#drinkz{
+    width: 100vw;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#drinkz img{
+    height: 20vh;
+    transition: 3s;
+}
+
+#drinkz img:hover{
+    transform: rotate(720deg);
+}
+
+#cocktailz{
+    width: 100vw;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cocktailz img{
+    height: 5vh;
+    transition: 3s;
+    opacity: 0;
+    animation-duration: 3s;
+
+}
+
+@keyframes showCocktail {
+    to{
+        opacity: 1;
+        height: 20vh;
+        transform: translateY(100px);
+    }
+}
