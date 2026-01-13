@@ -350,4 +350,48 @@ position: absolute;
 .prices{
     display: block;
 }
+
+
+.days{
+    flex-direction: row;
+    height: 40vh;
+    position: absolute;
+    bottom: -300px;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+
+.event{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+}
+
+.nameEvent{
+    width: 100vw;
+    text-align: center;
+    margin-left: 70vw;
+}
+
+.eventpic{
+    width: 65vw;
+    margin-left: 17vw;
+    justify-content: space-between;
+    margin-top: 8vh; 
+    flex-direction: column;
+    margin-bottom: 5vh;
+
+}
+
+.eventimg{
+    height: 5em;
+}
+
+.descevent{
+    margin-left: -17vw;
+    align-items: start;
+}
+
 }
